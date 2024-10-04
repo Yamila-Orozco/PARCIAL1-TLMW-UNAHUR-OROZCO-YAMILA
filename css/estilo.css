@@ -33,7 +33,7 @@ footer {
     padding: 20px 0;
   }
   
-  .footer-container {
+  .footerContainer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -41,37 +41,37 @@ footer {
     margin: 0 auto;
   }
   
-  .footer-column {
+  .footerColumn {
     flex: 1;
     margin: 10px;
   }
   
-  .footer-logo {
+  .footerLogo {
     width: 150px;
   }
   
-  .social-links a {
+  .socialLinks a {
     display: block;
     color: #fff;
     margin-top: 10px;
     text-decoration: none;
   }
   
-  .footer-column ul {
+  .footerColumn ul {
     list-style: none;
     padding: 0;
   }
   
-  .footer-column ul li {
+  .footerColumn ul li {
     margin-bottom: 10px;
   }
   
-  .footer-column ul li a {
+  .footerColumn ul li a {
     color: #fff;
     text-decoration: none;
   }
   
-  .footer-column ul li a:hover {
+  .footerColumn ul li a:hover {
     text-decoration: underline;
   }
   

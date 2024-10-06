@@ -31,43 +31,48 @@
         <input type="text" placeholder="Buscar">
     </header>
 
-    <main>
-        <div>
-            <h1>La Música empodera</h1>
-            <h2>Empoderate en nuestro Instituto <em>CLAVE</em></h2>
-            <p>Lo clásico se une a lo moderno para empoderarte</p>
-        </div>
-            <button type="button"><a href="./contacto.html">UNITE</a></button>
-    </main>
-    <section>
-    <div>
-        <video src="./video/videoMusic.mp4" autoplay controls muted></video>
+    <div class="mainBackground">
+        <main>
+            <div>
+                <h1>La Música empodera</h1>
+                <h2>Empoderate en nuestro Instituto <em>CLAVE</em></h2>
+                <p>Lo clásico se une a lo moderno para empoderarte</p>
+            </div>
+            <div class="btn">
+                <a href="./contacto.html">UNITE</a>
+            </div>
+        </main>
     </div>
-    </section>
-    <section>
+    
+    <section class="navegacionPorSecciones">
         <article>
             <h2>¿Qué querés escuchar de nosotr@s?</h2>
             <p>Apretá la nota musical a la que quieras ir</p>
         </article>
-
-        <! --navegación a sección de la página -->
-            <div>
-                <p><img src="./imagenes/NotaMusical1.webp" alt="Nota musical blanca"></p>
-                <button><a href="#SeccionHistoria">Nuestra Historia</a></button>
-            </div>
-            <div>
-                <p><img src="./imagenes/NotaMusical2.webp" alt="Nota musical negra"></p>
-                <button><a href="#SeccionCursos">Nuestros Cursos</a></button>
-            </div>
-            <div>
-                <p><img src="./imagenes/NotaMusical3.webp" alt="Nota musical corchete"></p>
-                <button><a href="#SeccionValores">Nuestros Valores</a></button>
-            </div>
-            <div>
-                <p><img src="./imagenes/NotaMusical4.webp" alt="nota musical semi corchete"></p>
-                <button><a href="#SeccionProducciones">¿Qué hacemos?</a></button>
-            </div>
+        <div class="cardSecciones">
+            <a href="#SeccionHistoria"><img src="./imagenes/NotaMusical1.webp" alt="Nota musical blanca">Nuestra Historia</a>
+        </div>
+        <div class="cardSecciones">
+            <img src="./imagenes/NotaMusical2.webp" alt="Nota musical negra">
+            <a href="#SeccionCursos">Nuestros Cursos</a>
+        </div>
+        <div class="cardSecciones">
+            <img src="./imagenes/NotaMusical3.webp" alt="Nota musical corchete">
+            <a href="#SeccionValores">Nuestros Valores</a>
+        </div>
+        <div class="cardSecciones">
+            <img src="./imagenes/NotaMusical4.webp" alt="Nota musical semi corchete">
+            <a href="#SeccionProducciones">¿Qué hacemos?</a>
+        </div>
     </section>
+    
+
+    <section>
+        <div>
+            <video src="./video/videoMusic.mp4" autoplay controls muted></video>
+        </div>
+    </section>
+
 
     <section id="SeccionValores">
         <article>

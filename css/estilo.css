@@ -1,21 +1,22 @@
 /*brand colours + accesibility
 main ones
-#fe5018 (naranja brillante)
+#fe5018 (naranja fuerte)
 #1f1c2d (violeta oscuro)
 Secondary
 #280559 (violeta profundo)
 #220440 (violeta casi negro)
-#f2a25c (anaranjado claro)
+#f2a25c (naranjado claro)
 #f27777 (rosado suave)
 Fondo oscuro con texto claro: dark #1f1c2d o #220440 + #f2a25c (naranja claro) o #f27777 (rosado suave)
 */
 
-/*backgrounds*/
+/*SECCIÓN A: TODA LA PÁGINA: backgrounds*/
 body {
     background-color: #1f0326;
 }
 
-main {
+/*SECCIÓN B: PAGINA PPAL SIN SCROLL*/
+.mainBackground {
     background-image: url(../imagenes/6056677.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -70,4 +71,52 @@ header {
     margin-left: 20px;
     height: 40px;
   }
+
   
+  .btn a {
+    background-color: #fe5018; 
+    border-radius: 15px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn a:hover {
+    background-color: #280559;
+    color:aliceblue;
+}
+ 
+/*SECCIÓN C NAVEGACIÓN POR SECCIONES*/
+.navegacionPorSecciones {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2a25c; 
+    border-radius: 10px;
+}
+
+.navegacionPorSecciones article {
+    grid-column: span 2; 
+
+}
+
+.cardSecciones {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 15px;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+.cardSecciones img {
+    width: 100px;
+    height: auto;
+}
+
+.cardSecciones:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    
+}
+

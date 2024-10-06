@@ -5,7 +5,7 @@ main ones
 Secondary
 #280559 (violeta profundo)
 #220440 (violeta casi negro)
-#f2a25c (naranjado claro)
+# (naranjado claro)
 #f27777 (rosado suave)
 Fondo oscuro con texto claro: dark #1f1c2d o #220440 + #f2a25c (naranja claro) o #f27777 (rosado suave) o antiquewhite
 */
@@ -49,6 +49,12 @@ p, q {
 }
 
 /*SECCIÓN B: PAGINA PPAL SIN SCROLL*/
+.seccion1CursoDeCanto {
+  margin-top: auto;
+  background-color: #220440;
+  
+}
+
 .mainBackground {
     background-image: url(../imagenes/6056677.jpg);
     background-repeat: no-repeat;
@@ -64,6 +70,7 @@ p, q {
     padding: 20px;
     opacity: 0.5;
 }
+
 
 /*nav bar ppal*/
 header {
@@ -215,6 +222,7 @@ footer {
   background-color: #222;
   color: antiquewhite;
   padding: 20px 0;
+  position:relative;
 }
 
 .footerContainer {

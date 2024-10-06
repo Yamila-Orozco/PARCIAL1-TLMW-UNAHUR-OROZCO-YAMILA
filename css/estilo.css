@@ -39,15 +39,17 @@ p, q {
 
 .parrafoInicial {
   font-family: Playfair, serif;
-  font-size: 2.5rem;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1.2;
   color:antiquewhite;
-  text-shadow: 1px 1px 2px #280559 , 0 0 25px #1f1c2d, 0 0 5px #f2a25c;
+  text-shadow: 1px 1px 2px #280559 , 0 0 20px #1f1c2d, 0 0 5px #f2a25c;
   box-shadow: #1f0326;
-
 }
-
+.smallCardFonts {
+  font-family: 'Alice', serif;
+  font-size: 18px;
+}
 /*SECCIÓN B: PAGINA PPAL SIN SCROLL*/
 .seccion1CursoDeCanto {
   margin-top: auto;

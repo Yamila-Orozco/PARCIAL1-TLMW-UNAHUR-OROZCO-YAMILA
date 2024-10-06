@@ -1,10 +1,73 @@
+/*brand colours + accesibility
+main ones
+#fe5018 (naranja brillante)
+#1f1c2d (violeta oscuro)
+Secondary
+#280559 (violeta profundo)
+#220440 (violeta casi negro)
+#f2a25c (anaranjado claro)
+#f27777 (rosado suave)
+Fondo oscuro con texto claro: dark #1f1c2d o #220440 + #f2a25c (naranja claro) o #f27777 (rosado suave)
+*/
+
+/*backgrounds*/
 body {
+    background-color: #1f0326;
+}
+
+main {
     background-image: url(../imagenes/6056677.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f2a25c;
+    padding: 20px;
 }
+
+/*nav bar*/
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f0326;
+  }
+  
+  header a img {
+    height: 80px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    color: #f2a25c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fe5018;
+    color: #1f0326;
+  }
+  
+  header input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 40px;
+  }
+  

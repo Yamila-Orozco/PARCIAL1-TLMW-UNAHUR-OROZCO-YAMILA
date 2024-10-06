@@ -70,6 +70,16 @@ p, q {
     padding: 20px;
     opacity: 0.5;
 }
+.SecondaryBackground {
+  background-image: url(../imagenes/6056677.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
 
 
 /*nav bar ppal*/
@@ -276,4 +286,20 @@ iframe {
   width: 100%;
   height: 150px;
   border: none;
+}
+
+/*css para tabla*/
+thead
+{
+  background-color: #f2a25c;
+}
+
+tbody
+{
+  background-color: antiquewhite;
+}
+
+/*css form*/
+.form {
+  background-color: antiquewhite;
 }

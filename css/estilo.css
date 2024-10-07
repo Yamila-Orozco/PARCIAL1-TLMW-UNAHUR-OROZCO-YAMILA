@@ -50,6 +50,13 @@ p, q {
   font-family: 'Alice', serif;
   font-size: 18px;
 }
+
+.parrafoGeneral {
+  font-family: 'Alice', serif;
+  font-size: 25px;
+  color:antiquewhite
+}
+
 /*SECCIÓN B: PAGINA PPAL SIN SCROLL*/
 .seccion1CursoDeCanto {
   margin-top: auto;

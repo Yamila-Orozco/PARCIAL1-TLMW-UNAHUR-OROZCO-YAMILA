@@ -37,70 +37,79 @@
                 <h2>Contactanos</h2>
                 <div class="flexContainer">
                     <div width="80px">
-                        <img src="./imagenes/map.png" width="60px" alt="imagen de vector de ubicación">
-                        <p>visitanos</p>
+                        <a
+                            href="https://maps.app.goo.gl/LapawSrsAnku69iz6">
+                            <img src="./imagenes/map.png" width="60px" alt="imagen de vector de ubicación"></a>
+                        <p class="smallCardFonts">Visitanos en Betbeder 3653, Castelar Sur, Gba Oeste.</p>
                     </div>
                     <div width="80px">
-                        <img src="./imagenes/mail.png" width="60px" alt="vector de email">
-                        <p>Mandanos un e-mail</p>
+                        <a href="mailto:yamilagisele.orozco@estudiantes.unahur.edu.ar"><img src="./imagenes/mail.png"
+                                    width="60px" alt="vector de email"></a>
+                        <p class="smallCardFonts">Mandanos un e-mail</p>
                     </div>
                     <div width="80px">
-                        <img src="./imagenes/whatsapp.png" width="60px" alt="Vector WhatsApp">
-                        <p>Envianos un Mensaje</p>
+                        <a href="https://chat.whatsapp.com/K02kp2z8sEX3k2RTs5TbEe"><img src="./imagenes/whatsapp.png" width="60px" alt="Vector WhatsApp"></a>
+                        <p class="smallCardFonts">Envianos un Mensaje</p>
                     </div>
                 </div>
             </article>
         </section>
     </main>
 
-    <div class="form">
-        <h2>Suscríbete a nuestro boletín</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input id="nombre" type="text" name="nombre" required> <br>
+    <div class="SecondaryBackground">
+        <div>
+            <h2>Suscribite a nuestro newsletter</h2><br>
+            <p>Y te avisamos por nuevas becas, eventos, talleres y charlas gratuitas.</p><br>
+            <p>¿Te lo vas a perder?</p><br>
+        </div>
+        <div>
+            <form class="form">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" name="nombre" required> <br>
 
-            <label for="direccion">Dirección:</label>
-            <input id="direccion" type="text" name="direccion"> <br>
+                <label for="direccion">Dirección:</label>
+                <input id="direccion" type="text" name="direccion"> <br>
 
-            <label for="telefono">Teléfono:</label>
-            <input id="telefono" type="tel" name="telefono"> <br>
+                <label for="telefono">Teléfono:</label>
+                <input id="telefono" type="tel" name="telefono"> <br>
 
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email" required> <br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required> <br>
 
-            <p><span style="color:black">¿Cómo te enteraste de nosotros?</span></p>
-            <div>
-                <input id="redes" type="radio" name="enteraste">
-                <label for="redes">Redes Sociales</label><br>
-                <input id="google" type="radio" name="enteraste">
-                <label for="google">Google</label><br>
-                <input id="recomendacion" type="radio" name="enteraste" value="Recomendación">
-                <label for="recomendacion">Recomendación</label> <br>
-            </div>
+                <p><span style="color:black">¿Cómo te enteraste de nosotros?</span></p>
+                <div>
+                    <input id="redes" type="radio" name="enteraste">
+                    <label for="redes">Redes Sociales</label><br>
+                    <input id="google" type="radio" name="enteraste">
+                    <label for="google">Google</label><br>
+                    <input id="recomendacion" type="radio" name="enteraste" value="Recomendación">
+                    <label for="recomendacion">Recomendación</label> <br>
+                </div>
 
-            <p><span style="color:black">¿Qué curso te interesa?</span> </p>
-            <div id="cursos">
-                <input type="checkbox" id="guitarra" name="curso">
-                <label for="guitarra">Guitarra</label>
-                <input type="checkbox" id="produccion" name="curso">
-                <label for="produccion">Producción Musical con Nuevas Tecnologías</label>
-                <input type="checkbox" id="canto" name="curso">
-                <label for="canto">Canto</label>
-            </div>
+                <p><span style="color:black">¿Qué curso te interesa?</span> </p>
+                <div id="cursos">
+                    <input type="checkbox" id="guitarra" name="curso">
+                    <label for="guitarra">Guitarra</label>
+                    <input type="checkbox" id="produccion" name="curso">
+                    <label for="produccion">Producción Musical con Nuevas Tecnologías</label>
+                    <input type="checkbox" id="canto" name="curso">
+                    <label for="canto">Canto</label>
+                </div>
 
-            <label for="opciones-contacto">¿Cómo querés que te contactemos?</label>
-            <input list="opciones-contacto" name="contacto" id="contacto" required>
-            <datalist id="opciones-contacto">
-                <option value="Email">
-                <option value="Teléfono">
-                <option value="WhatsApp">
-            </datalist>
-            <br>
-            <label for="message">¿Querés dejarnos alguna consulta o sugerencia? Aquí estamos:</label><br>
-            <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+                <label for="opciones-contacto">¿Cómo querés que te contactemos?</label>
+                <input list="opciones-contacto" name="contacto" id="contacto" required>
+                <datalist id="opciones-contacto">
+                    <option value="Email">
+                    <option value="Teléfono">
+                    <option value="WhatsApp">
+                </datalist>
+                <br>
+                <label for="message">¿Querés dejarnos alguna consulta o sugerencia? Aquí estamos:</label><br>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
 
-            <button type="submit">Suscribirse</button>
-        </form>
+                <button type="submit" class="btn">Suscribirse</button>
+            </form>
+        </div>
     </div>
 
     </div>
